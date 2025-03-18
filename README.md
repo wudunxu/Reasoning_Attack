@@ -4,7 +4,7 @@
 经测试发现，当输入包含超长连续加法序列时，会导致以下两类大语言模型陷入无限思考状态，全部歇菜，在官网和API调用时均复现：
 Experimental tests reveal that input containing ultra-long consecutive addition sequences can induce infinite processing loops in the following large language models:
 - DeepSeek-R1 
-- QWQ-32B 
+- Qianwen QWQ-32B 
 - Baidu WenXin-X1
 ## 复现指令 Reproduction Command
 > 计算
@@ -15,7 +15,7 @@ Experimental tests reveal that input containing ultra-long consecutive addition 
 
 https://github.com/user-attachments/assets/e27d048e-a8ae-490e-b48c-22458598f97f
 
-## - QWQ-32B 
+## - Qianwen QWQ-32B 
 
 
 https://github.com/user-attachments/assets/7fe76122-0cf0-4475-be18-61f24e87439b
